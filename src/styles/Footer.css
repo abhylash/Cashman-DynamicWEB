@@ -1,0 +1,97 @@
+/* Footer.css */
+
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 6px 0;
+    font-family: 'Open Sans', sans-serif;
+    width: 1400px;
+    box-shadow: 0px -2px 20px rgba(116, 255, 162, 0.24);
+}
+  .footer-row {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: center;
+}
+  
+  .footer-col {
+    flex-basis: 25%;
+    margin: 20px;
+    padding: 20px; /* add some padding to each column */
+    background-color: #c7c7c7; /* dark gray background for each column */
+    border-radius: 10px; /* add some rounded corners */
+    box-shadow:inset 0px 0px 2px rgb(0 0 0 / 39%); /* add some subtle shadow */
+  }
+  
+  .footer-col h4 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px; /* make the headings a bit larger */
+    margin-bottom: 10px; /* add some space between heading and links */
+  }
+  
+  .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .links li {
+    margin-bottom: 10px;
+  }
+  
+  .links a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.2s ease; /* add some transition effect on hover */
+  }
+  
+  .links a:hover {
+    color: #007c23; /* change text color on hover */
+  }
+  
+  .footer-col form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-col input[type="text"] {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px; /* make the input field a bit larger */
+    background-color: #000000; /* dark gray background for input field */
+    color: #fff; /* white text for input field */
+    margin-bottom: 8px;
+  }
+  
+  .footer-col button[type="submit"] {
+    background-color: #008e05; /* green button */
+    color: #fff;
+   
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease; /* add some transition effect on hover */
+  }
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff;
+    transition: color 0.2s ease; /* add some transition effect on hover */
+  }
+  
+  .icons i:hover {
+    color: #ccc; /* change icon color on hover */
+  }

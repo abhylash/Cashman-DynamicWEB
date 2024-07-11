@@ -1,0 +1,86 @@
+/* General styles for all sections */
+.bd-grib {
+  display: grid;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+sectionn {
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+}
+
+.expense-tracker__title,
+.income-calculator__title,
+.savings-calculator__title,
+.investment-calculator__title,
+.financial-goals-planner__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.expense-tracker__subtitle,
+.income-calculator__subtitle,
+.savings-calculator__subtitle,
+.investment-calculator__subtitle,
+.financial-goals-planner__subtitle {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  color: #666;
+}
+
+.expense-tracker__text,
+.income-calculator__text,
+.savings-calculator__text,
+.investment-calculator__text,
+.financial-goals-planner__text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Input and button styles */
+input[type="text"],
+input[type="number"] {
+  width: calc(100% - 2rem);
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+li:nth-child(even) {
+  background: #f1f1f1;
+}
